@@ -45,7 +45,15 @@ public class Main {
         loadObject(patrick);
         System.out.println(patrick);
 
+        //step 24 instance
+        ISaveable werewolf = new Monster("Werewolf", 20, 40);
+        System.out.println("Strength = " + ((Monster)werewolf).getStrength());
+        savedObject(werewolf);
+        //step 25 run, comment out loadObject above
+
         //step 17 run
+
+        //step 18 create monster class
 
     }
 
